@@ -8,7 +8,6 @@ IP-CIDR,9.9.9.9/32,PROXY
 IP-CIDR,149.112.112.112/32,PROXY
 IP-CIDR,208.67.222.222/32,PROXY
 IP-CIDR,208.67.220.220/32,PROXY
-
 # Unbreak
 # > General
 USER-AGENT,coffeecorp*,DIRECT
@@ -29,7 +28,10 @@ DOMAIN,analytics.strava.com,DIRECT
 # Advertising 广告
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
-
+DOMAIN,analytics.google.com,DIRECT
+DOMAIN,analyticsinsights-pa.googleapis.com,DIRECT
+DOMAIN,analyticsreporting.googleapis.com,DIRECT
+DOMAIN-SUFFIX,vd.l.qq.com,PROXY
 DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,adinall.com,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
